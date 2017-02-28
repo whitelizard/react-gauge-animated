@@ -1,6 +1,6 @@
 {
   "name": "react-gauge-animated",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "A physically animated Gauge as a React Component",
   "main": "index.js",
   "scripts": {
