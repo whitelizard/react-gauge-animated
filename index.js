@@ -1,5 +1,6 @@
 import React from 'react';
 import Gauge from 'gauge-animated';
+export { stringToElement } from 'gauge-animated';
 
 export default class ReactGauge extends React.Component {
   componentDidMount() {
