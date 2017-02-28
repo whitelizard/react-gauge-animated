@@ -24,7 +24,7 @@
   },
   "homepage": "https://github.com/whitelizard/react-gauge-animated#readme",
   "dependencies": {
-    "gauge-animated": "^0.1.0"
+    "gauge-animated": "^0.1.1"
   },
   "peerDependencies": {
     "react": "^15.4.2"
