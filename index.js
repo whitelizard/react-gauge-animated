@@ -1,11 +1,11 @@
 import React from 'react';
 import Gauge from 'gauge-animated';
 
-class ReactGauge extends React.Component {
+export default class ReactGauge extends React.Component {
   componentDidMount() {
     this.gauge = new Gauge(this.div, this.props);
   }
-  
+
   shouldComponentUpdate(nextProps) {
     if (nextProps.value !== this.props.value) this.gauge.setTarget(nextProps.value);
     return false;
