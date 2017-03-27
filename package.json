@@ -30,7 +30,7 @@
   "homepage": "https://github.com/whitelizard/react-gauge-animated#readme",
   "dependencies": {
     "babel-preset-react": "^6.23.0",
-    "gauge-animated": "^0.2.1"
+    "gauge-animated": "^0.3.0"
   },
   "peerDependencies": {
     "react": "^15.4.2"
