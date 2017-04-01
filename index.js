@@ -35,6 +35,7 @@ var ReactGauge = function (_React$Component) {
     key: 'componentDidMount',
     value: function componentDidMount() {
       this.gauge = new _gaugeAnimated2.default(this.div, this.props);
+      this.gauge.setTarget(this.props.value);
     }
   }, {
     key: 'shouldComponentUpdate',
