@@ -29,7 +29,6 @@
   },
   "homepage": "https://github.com/whitelizard/react-gauge-animated#readme",
   "dependencies": {
-    "babel-preset-react": "^6.23.0",
     "gauge-animated": "^0.4.0"
   },
   "peerDependencies": {
@@ -43,10 +42,12 @@
     "babel-plugin-transform-object-rest-spread": "^6.23.0",
     "babel-preset-es2015": "^6.24.0",
     "babel-preset-stage-3": "^6.22.0",
+    "babel-preset-react": "^6.23.0",
     "eslint": "^3.17.1",
     "eslint-config-airbnb": "^14.1.0",
     "eslint-plugin-import": "^2.2.0",
     "eslint-plugin-jsx-a11y": "^4.0.0",
+    "eslint-plugin-react": "^6.10.3",
     "rimraf": "^2.6.1"
   }
 }
