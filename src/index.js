@@ -4,6 +4,7 @@ import Gauge from 'gauge-animated';
 export default class ReactGauge extends React.Component {
   componentDidMount() {
     this.gauge = new Gauge(this.div, this.props);
+    this.gauge.setTarget(this.props.value);
   }
 
   shouldComponentUpdate(nextProps) {
